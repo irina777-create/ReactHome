@@ -1,0 +1,7 @@
+
+.brand{
+    border: 2px red;
+}
+.model{
+    border: 2px blue;
+}
