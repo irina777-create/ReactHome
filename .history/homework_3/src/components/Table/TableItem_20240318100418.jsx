@@ -1,7 +1,4 @@
 import React, { Component, PureComponent } from "react";
-
-
-
 export default class TableItem extends PureComponent {
 
   render() {

@@ -2,8 +2,6 @@ import React, { Component } from 'react'
 import Table from './components/Table/Table'
 import TableItem from './components/Table/TableItem'
 
-
-
 export default class App extends Component{
     state={
         animals:[{type: `turtle`, icon: `🐢`},

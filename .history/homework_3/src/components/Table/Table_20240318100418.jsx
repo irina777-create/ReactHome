@@ -2,6 +2,7 @@ import React, { PureComponent } from "react";
 import "./style.css";
 import "./table.html"
 
+
 export default class Table extends PureComponent {
     state = { ...this.props, color: `green`, font-weight, border };
     componentDidMount() {
@@ -36,6 +37,8 @@ export default class Table extends PureComponent {
           });
         }
         
+       
+       
         componentWillUnmount() {
         
             clearInterval(this.state.removeItem);
